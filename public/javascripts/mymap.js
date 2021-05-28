@@ -7,13 +7,3 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     zoomOffset: -1,
     accessToken: 'pk.eyJ1Ijoic2ViYXN0aWFuMTRnZyIsImEiOiJja3A1bnVhOG8wbTkwMm9vd3ZiaXB0ZnNvIn0.-12aA_BChskD82EqfzkeYw'
 }).addTo(mymap);
-
-var marker = L.marker([-11.839440, -77.154827]).addTo(mymap);
-
-
-var circle = L.circle([-11.839440, -77.154827], {
-    color: 'blue',
-    fillColor: '#f03',
-    fillOpacity: 0.5,
-    radius: 200
-}).addTo(mymap);
